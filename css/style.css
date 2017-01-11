@@ -1,0 +1,98 @@
+body {
+	background-color: #E0FFFF;
+}
+
+.Box {
+    margin-bottom:15px;
+    overflow: auto;
+    width: 430px;
+    height: auto;
+    background-color: #ffffff;
+    position: absolute;
+    border: 2px solid #D4D4D4;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #A9A9A9;
+    padding:20px 40px;
+    left: 10%;
+    top: 2%;
+}
+
+.Box1 {
+    margin-bottom:15px;
+    overflow: auto;
+    width: 430px;
+    height: auto;
+    background-color: #ffffff;
+    position: absolute;
+    border: 2px solid #D4D4D4;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #A9A9A9;
+    padding:20px 40px;
+    left: 50%;
+    top: 2%;
+}
+
+.Box2 {
+    margin-bottom:15px;
+
+    width:230px;
+    height: 230px;
+    background-color: #ffffff;
+    position:relative;
+    border: 2px solid #D4D4D4;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #A9A9A9;
+    padding:20px 40px;
+    left: 40%;
+    top: 30%;
+}
+
+.parent {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+table {
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 14px;
+border-radius: 10px;
+border-spacing: 0;
+text-align: center;
+}
+th {
+background: #BCEBDD;
+color: white;
+text-shadow: 0 1px 1px #2D2020;
+padding: 10px 20px;
+}
+th, td {
+border-style: solid;
+border-width: 0 1px 1px 0;
+border-color: white;
+}
+th:first-child, td:first-child {
+text-align: left;
+}
+th:first-child {
+border-top-left-radius: 10px;
+}
+th:last-child {
+border-top-right-radius: 10px;
+border-right: none;
+}
+td {
+padding: 10px 20px;
+background: #F8E391;
+}
+tr:last-child td:first-child {
+border-radius: 0 0 0 10px;
+}
+tr:last-child td:last-child {
+border-radius: 0 0 10px 0;
+}
+tr td:last-child {
+border-right: none;
+}
