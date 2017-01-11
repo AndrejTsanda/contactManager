@@ -1,2 +1,3 @@
 # contactManager
-Contact manager on PHP
+Contact manager on PHP.
+Database MySQL.
